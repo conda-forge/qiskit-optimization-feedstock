@@ -1,5 +1,5 @@
 {% set name = "qiskit-optimization" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-optimization-{{ version }}.tar.gz
-  sha256: 3dbddb32e653eff7e5eab2ac415f74214a68b04c44befbb33252ac5377899ed1
+  sha256: 76cc839df99ecfa366b3e136a231cee479ec20be948e15bfdaf753d53e96be99
 
 build:
   number: 0
