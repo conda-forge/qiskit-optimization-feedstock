@@ -1,5 +1,5 @@
 {% set name = "qiskit-optimization" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-optimization-{{ version }}.tar.gz
-  sha256: 76cc839df99ecfa366b3e136a231cee479ec20be948e15bfdaf753d53e96be99
+  sha256: 4804831e590a7159c2bd2be71750cde0c95a3b06e14a4843346e2ebcc7231e01
 
 build:
   number: 0
@@ -22,11 +22,11 @@ requirements:
     - setuptools >=40.1.0
   run:
     - dataclasses
-    - docplex >=2.21.207
-    - networkx >=2.2
+    - docplex >=2.21.207,!=2.24.231
+    - networkx >=2.6.3
     - numpy >=1.17
     - python >=3.7
-    - qiskit-terra >=0.19.1
+    - qiskit-terra >=0.22.4
     - scipy >=1.4
     - setuptools >=40.1.0
 
