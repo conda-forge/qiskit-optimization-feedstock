@@ -40,7 +40,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/Qiskit/qiskit-optimization
+  home: https://github.com/qiskit-community/qiskit-optimization
   summary: 'Qiskit Optimization: A library of quantum computing optimizations'
   license: Apache-2.0
   license_file: LICENSE.txt

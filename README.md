@@ -3,7 +3,7 @@ About qiskit-optimization-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-optimization-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Qiskit/qiskit-optimization
+Home: https://github.com/qiskit-community/qiskit-optimization
 
 Package license: Apache-2.0
 
